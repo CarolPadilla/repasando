@@ -1,0 +1,51 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>ComicsLocuras</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+<!--titulo-->
+
+      <h1>Login</h1>
+
+<!--correo-->
+      <ion-input
+      type="email"
+      fill="solid"
+      label="Email"
+      labelPlacement="floating"
+      helperText="Ingresa tu correo"
+      errorText="Correo invalido"
+      ngModel
+      email
+    ></ion-input>
+<!--fin correo-->
+
+<!--Tengo mis dudas sobre el de la contraseña, se puede mejorar  intente
+ que quedara como el de arriba pero parece que los iconos no dejan :v 
+ -->
+    <ion-input 
+    type="password" 
+    fill="solid"
+    label="Password" 
+    value="password"  
+    labelPlacement="floating"
+    helperText="Ingresa tu contraseña"
+    errorText="Contraseña invalida"
+    ngModel
+    password
+    >
+    <ion-icon slot="start" name="lock-closed" aria-hidden="true"></ion-icon> <ion-input-password-toggle slot="end"></ion-input-password-toggle>
+    </ion-input>
+
+    <!--fin password-->
+
+    <h6>¿Olvidaste tu contraseña?, <a [routerLink]="['/cambiocontrasena']">recuperar contraseña</a></h6>
+    <h5>¿No tienes cuenta?, <a  [routerLink]="['/registro']">Registrate</a></h5>
+
+    <!--boton-->
+      <ion-button color="dark" [routerLink]="['/login']">Ingresar</ion-button>
+    
+
+</ion-content>

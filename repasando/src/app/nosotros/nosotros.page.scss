@@ -1,0 +1,14 @@
+.text-center {
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Usa la misma fuente que el título */
+    font-size: 20px; /* Tamaño grande para el texto */
+    margin-top: 20px; /* Espacio entre el banner y el texto */
+    color: #ffffff; /* Color del texto */
+    line-height: 1.5; /* Altura de línea para mejorar la legibilidad */
+    text-align: center; /* Centra el texto debajo del banner */
+  }
+
+ion-content {
+    --background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(78, 9, 9));
+    height: 100%;
+    width: 100%;
+  }
