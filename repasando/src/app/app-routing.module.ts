@@ -16,10 +16,6 @@ const routes: Routes = [
     loadChildren: () => import('./principal/principal.module').then( m => m.PrincipalPageModule)
   },
   {
-    path: 'productos',
-    loadChildren: () => import('./productos/productos.module').then( m => m.ProductosPageModule)
-  },
-  {
     path: 'editarperfiles',
     loadChildren: () => import('./editarperfiles/editarperfiles.module').then( m => m.EditarperfilesPageModule)
   },
