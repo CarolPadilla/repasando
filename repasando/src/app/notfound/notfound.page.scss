@@ -1,0 +1,33 @@
+.not-found-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    background-color: #f8f8f8;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .not-found-img {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 20px;
+  }
+  
+  .title {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #ff4757;
+  }
+  
+  .subtitle {
+    font-size: 1.2rem;
+    color: #57606f;
+    margin-bottom: 20px;
+  }
+  
