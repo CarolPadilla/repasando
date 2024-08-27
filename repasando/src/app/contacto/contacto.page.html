@@ -11,3 +11,27 @@
     </ion-toolbar>
   </ion-header>
 </ion-content>
+
+<div class="contact-container">
+  <h2 class="contact-title">¡Contáctanos!</h2>
+  <p class="contact-description">Si tienes alguna pregunta o simplemente quieres decir "Hola", llena el siguiente formulario y nos pondremos en contacto contigo lo antes posible.</p>
+
+  <ion-list>
+    <ion-item>
+      <ion-label position="floating">Nombre</ion-label>
+      <ion-input type="text" required></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating">Correo Electrónico</ion-label>
+      <ion-input type="email" required></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating">Mensaje</ion-label>
+      <ion-textarea rows="6" required></ion-textarea>
+    </ion-item>
+  </ion-list>
+
+  <ion-button expand="block" class="send-button">Enviar Mensaje</ion-button>
+</div>
