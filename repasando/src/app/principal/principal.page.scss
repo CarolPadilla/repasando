@@ -35,7 +35,7 @@ ion-content {
 }
 
 
-
+//pie de pagina 
 
 
 ion-footer {
@@ -50,9 +50,30 @@ ion-toolbar {
 
 ion-buttons {
   margin-left: auto; /* Mueve los botones al final de la barra */
+  display: flex;
+  align-items: center;
+}
+
+ion-icon {
+  font-size: 28px; /* Tamaño del icono */
+  margin: 0 15px; /* Espaciado entre los iconos */
+  color: #fff; /* Color del ícono */
 }
 
 ion-button {
-  --color: #fff; /* Color del ícono y texto del botón */
   --background: transparent; /* Fondo transparente para los botones */
+  --color: #fff; /* Color del ícono y texto del botón */
+  padding: 0; /* Elimina el padding adicional */
 }
+
+
+
+
+
+
+
+
+
+
+
+
