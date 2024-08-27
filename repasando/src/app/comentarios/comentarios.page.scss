@@ -1,0 +1,45 @@
+/* Estilos para el apartado de comentarios con temática de Deadpool */
+
+/* Estilo para el card */
+ion-card {
+    background-color: #f8f9fa; /* Fondo claro para contraste */
+    border: 2px solid #cc0000; /* Bordes rojos */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px; /* Añadir padding al card para separación general */
+  }
+  
+  /* Estilo para el título del card */
+  ion-card-title {
+    color: #cc0000; /* Color rojo característico */
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Fuente estilo cómic */
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 20px; /* Espacio debajo del título */
+  }
+  
+  /* Estilo para las etiquetas */
+  ion-label {
+    color: #cc0000; /* Color rojo característico */
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Fuente estilo cómic */
+    margin-bottom: 20px; /* Espacio debajo de la etiqueta */
+    display: block; /* Asegura que la etiqueta ocupe una línea completa */
+  }
+  
+  /* Estilo para los inputs y textareas */
+  ion-input, ion-textarea {
+    border: 1px solid #cc0000; /* Bordes rojos */
+    border-radius: 5px;
+    padding: 1.5px; /* Espacio interno para los inputs */
+    margin-bottom: 20px; /* Espacio entre campos */
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Fuente estilo cómic */
+  }
+  
+  /* Estilo para el botón */
+  ion-button {
+    background-color: #cc0000; /* Fondo rojo */
+    color: #ffffff; /* Texto blanco */
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Fuente estilo cómic */
+    margin-top: 20px; /* Espacio arriba del botón */
+  }
+  
