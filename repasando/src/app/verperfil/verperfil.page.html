@@ -1,8 +1,40 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>verperfil</ion-title>
+    <ion-title>Ver Perfil</ion-title>
   </ion-toolbar>
 </ion-header>
+
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Ejemplo de Tarjeta Responsiva
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-grid>
+    <ion-row>
+      <!-- Esta columna se ajustará al tamaño de la pantalla -->
+      <ion-col size="12" size-md="6" offset-md="3">
+        <ion-card>
+          <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/card-media.png" />
+          <ion-card-header>
+            <ion-card-title>Card Title</ion-card-title>
+            <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
+          </ion-card-header>
+
+          <ion-card-content>
+            Here's a small text description for the card content. Nothing more, nothing less.
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
+
+
+<!-- COMECNTADO PORQUE ESTO NO DEJA VER LA PAGINA HASTA ABAJO
 
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
@@ -11,3 +43,4 @@
     </ion-toolbar>
   </ion-header>
 </ion-content>
+-->
