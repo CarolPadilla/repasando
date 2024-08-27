@@ -88,6 +88,10 @@ const routes: Routes = [
     loadChildren: () => import('./contacto/contacto.module').then( m => m.ContactoPageModule)
   },
   {
+    path: 'manga',
+    loadChildren: () => import('./manga/manga.module').then( m => m.MangaPageModule)
+  },
+  {
     path: 'notfound',
     loadChildren: () => import('./notfound/notfound.module').then( m => m.NotfoundPageModule)
   },
