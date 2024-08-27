@@ -1,0 +1,61 @@
+.contact-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .contact-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f44336; /* Rojo vibrante para coincidir con el estilo de Deadpool */
+  }
+  
+  .contact-description {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  ion-item {
+    --background: #fff; /* Fondo blanco para los campos del formulario */
+    --border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  ion-label {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  ion-input, ion-textarea {
+    font-size: 14px;
+    color: #000;
+  }
+  
+  .send-button {
+    margin-top: 20px;
+    background-color: #f44336; /* Color rojo vibrante */
+    --color: #fff; /* Texto blanco */
+    font-weight: bold;
+  }
+  
+  .location-info {
+    margin-top: 40px;
+  }
+  
+  .location-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #f44336;
+  }
+  
+  .location-description {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .location-address {
+    font-size: 14px;
+    color: #000;
+    font-weight: bold;
+  }
+  

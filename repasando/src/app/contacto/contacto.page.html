@@ -18,20 +18,25 @@
 
   <ion-list>
     <ion-item>
-      <ion-label position="floating">Nombre</ion-label>
-      <ion-input type="text" required></ion-input>
+      <ion-label position="floating">Nombre y Apellido</ion-label>
+      <ion-input type="text" required placeholder="Ejemplo: Juan Pérez"></ion-input>
     </ion-item>
 
     <ion-item>
       <ion-label position="floating">Correo Electrónico</ion-label>
-      <ion-input type="email" required></ion-input>
+      <ion-input type="email" required placeholder="Ejemplo: juan.perez@correo.com"></ion-input>
     </ion-item>
 
     <ion-item>
       <ion-label position="floating">Mensaje</ion-label>
-      <ion-textarea rows="6" required></ion-textarea>
+      <ion-textarea rows="6" required placeholder="Escribe tu mensaje aquí..."></ion-textarea>
     </ion-item>
   </ion-list>
 
   <ion-button expand="block" class="send-button">Enviar Mensaje</ion-button>
+
+  <div class="location-info">
+    <h3 class="location-title">Nuestra Ubicación</h3>
+    <p class="location-description">Puedes visitarnos en nuestra tienda física en:Duoc Uc Plaza Norte,Santiago de Chile.</p>
+  </div>
 </div>
