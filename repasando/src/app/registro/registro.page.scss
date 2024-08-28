@@ -1,0 +1,31 @@
+.registro-content {
+    --background: linear-gradient(to right, #0a0303, #4e0505); /* Fondo degradado */
+    padding: 20px;
+  }
+  
+  ion-toolbar {
+    --background: #850c0c;
+    color: white;
+  }
+  
+  ion-item {
+    --background: rgba(110, 100, 100, 0.8);
+    border-radius: 10px;
+    margin-bottom: 15px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  ion-label {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  
+  .registro-button {
+    margin-top: 20px;
+    background-color: #af4c4c;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  
