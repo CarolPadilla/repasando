@@ -1,0 +1,40 @@
+/* Estilo para las imágenes de los productos */
+.producto-imagen {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  
+  /* Estilo para las tarjetas de los productos */
+  ion-card {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  ion-card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Estilo para los títulos de los productos */
+  ion-card-title {
+    font-size: 1.2em;
+    color: #bebebe;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilo para el contenido de las tarjetas */
+  ion-card-content {
+    font-size: 1em;
+    color: #666;
+    text-align: center;
+  }
+  
+  /* Estilo para las filas */
+  ion-row {
+    justify-content: center;
+  }
+  
+  
